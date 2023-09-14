@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="ball" style="
+background-color:rgb(0, 255, 64);
+top:0px;
+left:0px;
+border-radius:50%;
+position:absolute;
+width:50px;
+height:50px;
+"></div>
+<script>
+    var velocity =100;
+    var positionX = 0;
+    var positionY = 0;
+    var ball=document.getElementById("ball");
+    var reverse;
+    
+    function moveball(){
+        var Xmin=0;
+        var Xmax=300;
+        var Ymin=0;
+        var Ymax=500;
+        if(reverse){
+            positionX = positionX - velocity;
+            positionY =positionY - velocity;
+            ball.style.left=positionX + 'px';
+            ball.style.top=positionY + 'px';
+            
+            }
+else{
+        positionX = positionX + velocity;
+        positionY = positionY + velocity;
+        ball.style.left=positionX + 'px';
+        ball.style.top=positionY + 'px';
+
+    }
+    if(positionX>Xmax || positionY<Ymin)
+    {
+        reverse = !reverse;
+    }
+    
+}
+setInterval(moveball,100);
+</script>
+</body>
+</html>
+
+
+
+    
+
