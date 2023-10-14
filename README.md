@@ -6,7 +6,7 @@ steps to run the code:
 
  step 1
  
-   - The <div> element with the ID "ball" represents the green ball.
+   - The  element with the ID "ball" represents the green ball.
    - It's styled with CSS attributes for its appearance, including its color, size, and position.
 
 step 2 :
