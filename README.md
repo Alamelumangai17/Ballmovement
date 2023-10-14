@@ -1,8 +1,10 @@
 ##Ball Movement
+
 In simulation ball movement a ball in made to move in vertical direction in fixed velocity.The ball moves in top to botton  and wise vera which refers to bouncing
 The ball is made to move in X and Y axis
 
 Steps to run the project 
+
  step 1
    - The <div> element with the ID "ball" represents the green ball.
    - It's styled with CSS attributes for its appearance, including its color, size, and position.
