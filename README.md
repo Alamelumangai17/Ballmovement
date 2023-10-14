@@ -9,13 +9,7 @@ steps to run the code:
    - The  element with the ID "ball" represents the green ball.
    - It's styled with CSS attributes for its appearance, including its color, size, and position.
 
-step 2 
-
-     - The JavaScript code controls the animation of the ball:
-     - velocity: Determines the speed of the ball in pixels per animation frame.
-     - positionX and positionY: Store the current X and Y positions of the ball.
-     
-step 3:
+step 2:
 
    - The moveball function is called repeatedly by setInterval to create the animation effect.
      
