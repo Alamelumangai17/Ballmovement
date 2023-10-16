@@ -13,6 +13,6 @@ step 2:
 
    - The moveball function is called repeatedly by setInterval to create the animation effect.
      
-Future improvements
+# Future improvements
 
 In summary, this code creates a simple, interactive animation where a green ball moves horizontally and vertically within defined boundaries, changing direction when it reaches those boundaries. The animation speed can be adjusted by changing the velocity variable. This code could serve as a basic example for understanding how to animate elements using JavaScript in a webpage.
