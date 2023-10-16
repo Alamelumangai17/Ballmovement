@@ -2,7 +2,7 @@
 
 The provided HTML and JavaScript code creates a simple webpage with an animated green ball that moves back and forth within specified boundaries. Below is a "Code Readme" explaining the purpose and functioning of the code:
 
-steps to run the project
+# steps to run the project
 
  step 1
  
